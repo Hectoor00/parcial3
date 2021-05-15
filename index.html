@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
+  <title>Proyecto DWEB-2021</title>
+
+  <!-- CSS  -->
+  <link href="css/icon.css" rel="stylesheet">
+  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+</head>
+<body>
+  <nav class="teal" role="navigation">
+    <div class="nav-wrapper container"><a id="logo-container" href="#" class="brand-logo">Logo</a>
+      <ul class="right hide-on-med-and-down">
+        <li>Inicio de sesión</li>
+      </ul>
+
+      <ul id="nav-mobile" class="sidenav light-blue">
+        
+      </ul>
+      
+    </div>
+  </nav>
+
+  <!-- cuerpo -->
+  <div class="section no-pad-bot" id="index-banner">
+    <div class="container">
+      <br><br>
+      <div class="row center">
+        <form class="col s12 m6 offset-m3 card" action="pages/home_page.html" method="POST" id="index">
+          <h2 class="header center black-text">Inicio de Sesión</h2>
+          <div class="row">
+            <div class="input-field col s12">
+              <i class="material-icons prefix">account_circle</i>
+              <input id="txtUsuario" type="text" class="validate" name="txtUsuario" required>
+              <label for="txtUsuario" >Nombre de usuario</label>
+            </div>
+
+            <div class="input-field col s12">
+              <i class="material-icons prefix">keyboard</i>
+              <input id="txtClave" type="password" class="validate" name="txtClave" required>
+              <label for="txtClave">Clave</label>
+            </div>
+
+            <div class="input-field col s12">              
+              <button class="btn waves-effect waves-light black" type="submit" name="action">entrar
+                <i class="material-icons right">send</i>
+              </button>        
+            </div>
+            
+          </div>
+        </form>
+      </div>
+      
+      <br><br>
+
+    </div>
+  </div>
+<!--fin del cuerpo -->
+
+  <footer class="page-footer teal">
+    <div class="container">
+      <div class="row">
+        <div class="col l6 s12">
+          <h5 class="white-text">Proyecto Desarrollo web 2021</h5>
+          <p class="grey-text text-lighten-4">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorem cumque totam eaque laboriosam ea maiores! Placeat cum, aliquam excepturi maiores eligendi asperiores dolore libero vero ipsam cupiditate quam impedit dolores.</p>
+
+
+        </div>
+        <div class="col l3 s12">
+          <h5 class="white-text">Integrantes</h5>
+          <ul>
+            <li><a class="white-text" href="#!">Nombres completos 1</a></li>
+            <li><a class="white-text" href="#!">Nombres completos 2</a></li>
+            <li><a class="white-text" href="#!">Nombres completos 3</a></li>
+            <li><a class="white-text" href="#!">Nombres completos 4</a></li>
+          </ul>
+        </div>
+        <div class="col l3 s12">
+          <h5 class="white-text">Contactos</h5>
+          <ul>
+            <li><a class="white-text" href="#!">Email 1</a></li>
+            <li><a class="white-text" href="#!">Email 2</a></li>
+            <li><a class="white-text" href="#!">Email 3</a></li>
+            <li><a class="white-text" href="#!">Email 4</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="footer-copyright">
+      <div class="container">
+      Facilitador <a target="_blank" class="black-text" href="https://www.youtube.com/channel/UCdCd9f4XTh2sle8P3oT_xYg">Armando Sánchez Trabajando</a>
+      </div>
+    </div>
+  </footer>
+
+
+  <!--  Scripts-->
+  <script src="js/jquery-2.1.1.min.js"></script>
+  <script src="js/materialize.js"></script>
+  <script src="js/init.js"></script>
+
+  </body>
+</html>

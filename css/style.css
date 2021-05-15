@@ -1,0 +1,50 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+	font-size: inherit;
+}
+#imagen{
+  width: 50%;
+  height: 50%;
+}
+body{
+  background: rgb(131, 58, 180);
+  background: linear-gradient(90deg,rgba(131,58,180,1)0%,rgba(28,160,118,1)50%,rgba(65,159,173,1)97%);
+}
+#logo{
+  margin-top: 10px;
+  width: 45px;
+  height: 45px;
+}
+#index{
+  box-shadow:  7px 7px 2px 0px rgba(0, 100, 0, 0.5);;
+  border-radius: 20px;
+  background: rgba(212, 255, 255, 0.6);
+}
+
+#formulario{
+  box-shadow:  7px 7px 2px 0px rgba(0, 100, 0, 0.5);;
+  border-radius: 20px;
+  background: rgba(212, 255, 255, 0.6);
+}
+
+#nusuario{
+  display: inline-block;
+
+  animation: heartBeat;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+.tabla:hover{
+  background: rgba(38, 194, 59, 0.5);
+
+}
